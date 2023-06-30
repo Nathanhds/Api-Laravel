@@ -9,16 +9,16 @@ php artisan serve
 Para testar API utilize uma ferramenta como o Postman ou o Insomnia
 # As operações realizadas são:
 
-Listar todas as tarefas:
+- Listar todas as tarefas:
 <br>Método: GET
 <br>URL: http://localhost:8000/api/tasks
 
-Obter detalhes de uma tarefa específica:
+- Obter detalhes de uma tarefa específica:
 <br>Método: GET
 <br>URL: http://localhost:8000/api/tasks/{id}
 <br>Substitua {id} pelo ID da tarefa desejada.
 
-Criar uma nova tarefa:
+- Criar uma nova tarefa:
 <br>Método: POST
 <br>URL: http://localhost:8000/api/tasks
 <br>Corpo (em JSON):
@@ -29,7 +29,7 @@ Criar uma nova tarefa:
   "completed": false
 }
 ```
-Atualizar os dados de uma tarefa existente:
+- Atualizar os dados de uma tarefa existente:
 <br>Método: PUT
 <br>URL: http://localhost:8000/api/tasks/{id}
 <br>Substitua {id} pelo ID da tarefa que deseja atualizar.
@@ -42,3 +42,9 @@ Atualizar os dados de uma tarefa existente:
 }
 
 ```
+- Excluir uma tarefa:
+<br>Método: DELETE
+<br>URL: http://localhost:8000/api/tasks/{id}
+<br>Substitua {id} pelo ID da tarefa que deseja excluir.
+
+
