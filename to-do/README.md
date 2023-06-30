@@ -1,5 +1,6 @@
 # Sistema-de-Gerenciamento-de-Tarefas-API
-Para a API funcionar em seu computador você deve verificar se o mySql está iniciado e em seguida ativar o serve no terminal do projeto.
+Video : <a> https://www.youtube.com/watch?v=aiE5An19SCg <a>
+<br>Para a API funcionar em seu computador você deve verificar se o mySql está iniciado e em seguida ativar o serve no terminal do projeto.
 
 ```bash
 php artisan serve
